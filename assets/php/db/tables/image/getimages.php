@@ -14,10 +14,10 @@ let images = [];
 <?php
   }
 ?>
+console.log(images);
 </script>
 <?php
 }
 
 $conn->close();
 ?>
-<script>console.log(images);</script>

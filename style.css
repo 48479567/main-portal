@@ -316,7 +316,7 @@ img {
 ====================*/
 
 #mu-slider {
-  display: inline;
+  display: block;
   float: left;
   margin-top: 90px;
   width: 100%;
@@ -324,19 +324,19 @@ img {
 }
 
 .mu-slider-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-top-slider {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-top-slider-single {
-  display: inline;
+  display: block;
   float: left;
   position: relative;
   width: 100%;
@@ -467,20 +467,20 @@ img {
 ====================*/
 
 #mu-about-us {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   padding: 100px 0;
 }
 
 .mu-about-us-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-about-us-right {
-  display: inline;
+  display: block;
   float: left;
   margin-top: 20px;
   padding-top: 30px;
@@ -505,7 +505,7 @@ img {
 }
 
 .mu-about-us-left {
-  display: inline;
+  display: block;
   float: left;
   margin-top: 20px;
   padding-top: 30px;
@@ -514,7 +514,7 @@ img {
 }
 
 .mu-title {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   margin-bottom: 20px;
@@ -542,21 +542,21 @@ img {
   background-attachment: fixed;
   background-image: url("assets/img/counter-bg.jpeg");
   background-size: cover;
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-counter-overlay {
   background-color: rgba(0, 0, 0, 0.8);
-  display: inline;
+  display: block;
   padding: 100px 0;
   float: left;
   width: 100%;
 }
 
 .mu-counter-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
@@ -576,7 +576,7 @@ img {
 
 .mu-counter-nav li .mu-single-counter {
   color: #fff;
-  display: inline;
+  display: block;
   float: left;
   padding: 25px 0;
   text-align: center;
@@ -620,20 +620,20 @@ img {
 ====================*/
 
 #mu-restaurant-menu {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   padding: 100px 0;
 }
 
 .mu-restaurant-menu-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-restaurant-menu-content {
-  display: inline;
+  display: block;
   float: left;
   margin-top: 30px;
   width: 100%;
@@ -673,21 +673,21 @@ img {
 }
 
 .mu-tab-content-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   padding: 50px 0;
 }
 
 .mu-tab-content-left {
-  display: inline;
+  display: block;
   float: left;
   padding-right: 15px;
   width: 100%;
 }
 
 .mu-tab-content-right {
-  display: inline;
+  display: block;
   float: left;
   padding-left: 15px;
   width: 100%;
@@ -695,7 +695,7 @@ img {
 
 .mu-menu-item-nav li {
   border-bottom: 1px dashed #ccc;
-  display: inline;
+  display: block;
   float: left;
   margin-bottom: 20px;
   padding-bottom: 15px;
@@ -750,14 +750,14 @@ RESERVATION SECTION
 
 #mu-reservation {
   background-color: #222;
-  display: inline;
+  display: block;
   float: left;
   padding: 100px 0;
   width: 100%;
 }
 
 .mu-reservation-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
@@ -767,7 +767,7 @@ RESERVATION SECTION
 }
 
 .mu-reservation-content {
-  display: inline;
+  display: block;
   float: left;
   margin-top: 20px;
   padding: 0 100px;
@@ -789,7 +789,7 @@ RESERVATION SECTION
 }
 
 .mu-reservation-left {
-  display: inline;
+  display: block;
   float: left;
   margin-top: 30px;
   width: 100%;
@@ -904,7 +904,7 @@ RESERVATION SECTION
 
 .mu-reservation-right {
   background-color: #fff;
-  display: inline;
+  display: block;
   float: left;
   margin-top: 40px;
   width: 100%;
@@ -912,7 +912,7 @@ RESERVATION SECTION
 }
 
 .mu-opening-hour {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   padding: 10px;
@@ -944,33 +944,33 @@ RESERVATION SECTION
 ====================*/
 
 #mu-gallery {
-  display: inline;
+  display: block;
   float: left;
   padding: 100px 0;
   width: 100%;
 }
 
 .mu-gallery-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-gallery-content {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-gallery-body {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   margin-top: 50px;
 }
 
 .mu-single-gallery {
-  display: inline;
+  display: block;
   float: left;
   margin-bottom: 30px;
   width: 33.33%;
@@ -981,7 +981,7 @@ RESERVATION SECTION
 }
 
 .mu-single-gallery .mu-single-gallery-item {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   position: relative;
@@ -993,7 +993,7 @@ RESERVATION SECTION
 }
 
 .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img {
-  display: inline;
+  display: block;
   float: left;
   overflow: hidden;
   width: 100%;
@@ -1034,14 +1034,14 @@ RESERVATION SECTION
   background-image: url("assets/img/testimonial-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 #mu-client-testimonial .mu-overlay {
   background-color: rgba(0, 0, 0, 0.8);
-  display: inline;
+  display: block;
   float: left;
   padding: 70px 0 100px;
   width: 100%;
@@ -1052,31 +1052,31 @@ RESERVATION SECTION
 }
 
 .mu-client-testimonial-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-testimonial-content {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-testimonial-slider {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-testimonial-slider li {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-testimonial-slider li .mu-testimonial-single {
-  display: inline;
+  display: block;
   float: left;
   padding: 0 150px;
   position: relative;
@@ -1084,7 +1084,7 @@ RESERVATION SECTION
 }
 
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   text-align: center;
@@ -1116,7 +1116,7 @@ RESERVATION SECTION
 
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-bio {
   color: #fff;
-  display: inline-block;
+  display: block;
   float: left;
   margin-top: 5px;
   margin-bottom: 25px;
@@ -1164,20 +1164,20 @@ RESERVATION SECTION
 
 
 #mu-chef {
-  display: inline;
+  display: block;
   float: left;
   padding: 100px 0;
   width: 100%;
 }
 
 .mu-chef-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-chef-content {
-  display: inline;
+  display: block;
   float: left;
   margin-top: 30px;
   padding-bottom: 60px;
@@ -1185,7 +1185,7 @@ RESERVATION SECTION
 }
 
 .mu-chef-nav {
-  display: inline;
+  display: block;
   float: left;
   text-align: center;
   width: 100%;
@@ -1208,7 +1208,7 @@ RESERVATION SECTION
 }
 
 .mu-chef-nav .slick-list li .mu-single-chef {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   position: relative;
@@ -1220,7 +1220,7 @@ RESERVATION SECTION
 }
 
 .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-img {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
@@ -1230,7 +1230,7 @@ RESERVATION SECTION
 }
 
 .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-info {
-  display: inline;
+  display: block;
   float: left;
   padding: 10px 10px 20px;
   width: 100%;
@@ -1308,27 +1308,27 @@ RESERVATION SECTION
 
 #mu-contact {
   background-color: #f8f8f8;
-  display: inline;
+  display: block;
   float: left;
   padding: 100px 0;
   width: 100%;
 }
 
 .mu-contact-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
 
 .mu-contact-content {
-  display: inline;
+  display: block;
   float: left;
   margin-top: 30px;
   width: 100%;
 }
 
 .mu-contact-left {
-  display: inline;
+  display: block;
   float: left;
   font-family: "Open Sans", sans-serif;
   width: 100%;
@@ -1367,14 +1367,14 @@ RESERVATION SECTION
 }
 
 .mu-contact-right {
-  display: inline;
+  display: block;
   float: left;
   padding: 0 30px;
   width: 100%;
 }
 
 .mu-contact-right .mu-contact-widget {
-  display: inline;
+  display: block;
   float: left;
   margin-bottom: 25px;
   width: 100%;
@@ -1445,7 +1445,7 @@ RESERVATION SECTION
 ====================*/
 
 #mu-map {
-  display: inline;
+  display: block;
   float: left;
   height: 450px;
   width: 100%;
@@ -1462,21 +1462,21 @@ RESERVATION SECTION
 
 #mu-footer {
   background-color: #444;
-  display: inline;
+  display: block;
   float: left;
   padding: 50px 0;
   width: 100%;
 }
 
 .mu-footer-area {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   text-align: center;
 }
 
 .mu-footer-social {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
   text-align: center;
@@ -1502,7 +1502,7 @@ RESERVATION SECTION
 }
 
 .mu-footer-copyright {
-  display: inline;
+  display: block;
   float: left;
   width: 100%;
 }
