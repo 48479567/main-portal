@@ -1,0 +1,6 @@
+[11-Nov-2019 18:38:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/munisantabarbara/public_html/assets/php/db/connection.php on line 20
+[11-Nov-2019 18:47:02 Etc/GMT] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/munisantabarbara/public_html/assets/php/db/connection.php on line 20
+[11-Nov-2019 18:53:17 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/munisantabarbara/public_html/assets/php/db/connection.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/munisantabarbara/public_html/assets/php/db/connection.php on line 20
