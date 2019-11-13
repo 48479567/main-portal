@@ -1,22 +1,27 @@
 <?php
 require_once('../../connection.php');
-require_once('../queries/insert.php');
+require_once('../../queries/insert.php');
 
 $targetDir = 'uploads/';
-$image = $_FILES['image'];
-$targetFile = $targetDir.basename($image['name']);
-$uploadOk = 1;
-$imageTmpName = $image['tmp_name'];
-$imageName = $image['name'];
+$src = $_FILES['src'];
+$idsection = $_POST['idsection'];
+$title = $_POST['title'];
+$subtitle = $_POST['subtitle'];
+$description = $_POST['description'];
 
-$check = getimagesize($imageTmpName);
+$targetFile = $targetDir.basename($src['name']);
+$uploadOk = 1;
+$srcTmpName = $src['tmp_name'];
+$srcName = $src['name'];
+
+$check = getimagesize($srcTmpName);
 
 if (file_exists($targetFile)) {
   echo 'Sorry, file already exists.';
-  $uploadOk = 0;
+  $uploadOk = 0;  
 }
 
-if ($image['size'] > 500000) {
+if ($src['size'] > 500000) {
   echo 'Sorry, your file is too large.';
   $uploadOk = 0;
 }
@@ -31,10 +36,12 @@ if ($check !== false) {
 if ($uploadOk == 0) {
   echo 'Sorry, your file was not uploaded.';
 } else {
-  if (move_uploaded_file($imageTmpName, $targetFile)) {
+  if (move_uploaded_file($srcTmpName, $targetFile)) {
     
     $result = insertIntoByTableAndTexts(
-      'src', "'$imageName'", 'image', $conn);
+      'src, idsection, title, subtitle, description', 
+      "'$srcName', '$idsection', '$title', '$subtitle', '$description'", 
+      'image', $conn);
 
     if($result === TRUE) {
       echo "New Image src created successfully";

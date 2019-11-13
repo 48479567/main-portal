@@ -84,6 +84,16 @@
 					</div>
 					<!-- / Top slider content -->
 				</div>
+				<div class="mu-top-slider-single"><img alt="img" src="assets/img/slider/1.jpg" /> <!-- Top slider content -->
+					<div class="mu-top-slider-content"><span class="mu-slider-small-title">Gesti&oacute;n: 2019 &ndash;
+							2022</span>
+
+						<h2 class="mu-slider-title">ALCALDE, REGIDORES Y FUNCIONARIOS</h2>
+
+						<p>De la Municipalidad Distrital Santa B&aacute;rbara de Carhuacay&aacute;n</p>
+					</div>
+					<!-- / Top slider content -->
+				</div>
 				<!-- / Top slider single slide -->
 				<!-- Top slider single slide -->
 
@@ -776,7 +786,7 @@
 								<div class="mu-single-gallery col-md-4">
 									<div class="mu-single-gallery-item">
 										<figure class="mu-single-gallery-img"><a class="mu-imglink" href="assets/img/gallery/1.jpg"><img
-													width="320" height="240" alt="img" src="assets/img/gallery/1.jpg" /> </a>
+													 alt="img" src="assets/img/gallery/1.jpg" /> </a>
 
 											<div class="mu-single-gallery-info"><a class="mu-imglink" href="assets/img/gallery/1.jpg"><img
 														alt="plus icon img" class="mu-view-btn" src="assets/img/plus.png" /> </a></div>
