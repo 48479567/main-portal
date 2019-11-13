@@ -3,6 +3,7 @@ require_once('../../connection.php');
 require_once('../queries/select.php');
 
 $result = selectByTable('image', $conn);
+
 if ($result->num_rows > 0) {
 ?>
 <script>
@@ -18,6 +19,5 @@ console.log(images);
 </script>
 <?php
 }
-
 $conn->close();
 ?>

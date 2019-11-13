@@ -1,6 +1,6 @@
 <?php 
 function select($sql, $conn) {
-  $result = $conn->query;
+  $result = $conn->query($sql);
   return $result;
 }
 
@@ -10,8 +10,8 @@ function selectByTable($table, $conn) {
   return $result;
 }
 
-function selectByTableAndFieldArray($arrayField, $table, $conn) {
- $sql = "SELECT implode(',', $arrayField) FROM $table";
+function selectByTableAndFieldArray($arrayFields, $table, $conn) {
+ $sql = "SELECT implode(',', $arrayFields) FROM $table";
  $result = $conn->query($sql);
  return $result;
 }
