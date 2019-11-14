@@ -17,7 +17,7 @@ let images = {
 <?php 
   while($row = $result->fetch_assoc()) {
 ?>
-  images.<?=$row['idsection']?>.push({
+  images['<?=$row['idsection']?>'].push({
     src: '<?=$row['src']?>',
     idsection: '<?=$row['idsection']?>',
     title: '<?=$row['title']?>',
